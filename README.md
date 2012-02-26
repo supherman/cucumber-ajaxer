@@ -21,7 +21,7 @@ Or install it yourself as:
 
 After adding to your project, add this line to __env.rb__:
 
-    require 'cucumber/ajaxer'
+    require 'cucumber-ajaxer'
 
 *proTip:*
 It's even better if you create a file in features/support/ with that line

@@ -19,7 +19,17 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+After adding to your project, add this line to __env.rb__:
+
+    require 'cucumber/ajaxer'
+
+# proTip:
+It's even better if you create a file in features/support/ with that line
+
+
+## TODO:
+
+- Activate by default when added to Gemfile
 
 ## License
 
@@ -34,3 +44,8 @@ See the LICENSE file for more information, or http://www.gnu.org/licenses/gpl.tx
 4. Commit your changes (`git commit -am 'Added some feature'`)
 5. Push to the branch (`git push origin my-new-feature`)
 6. Create new Pull Request
+
+## Thanks to:
+
+- Original idea was found here:
+http://stackoverflow.com/questions/7286254/cucumber-wait-for-ajaxsuccess

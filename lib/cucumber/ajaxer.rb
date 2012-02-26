@@ -1,3 +1,5 @@
+require 'cucumber'
+
 # Wait for AJAX requests when using @javascript tags: http://bit.ly/zige8p
 WAIT_TIME = 5 # seconds
 SLEEP_FOR = 0 # seconds
